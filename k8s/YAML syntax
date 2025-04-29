@@ -1,0 +1,49 @@
+# - comment, this line will be ignored by kubernetes
+
+# we can use .yml or .yaml for kubernetes file (code)
+
+# correct representation of key values
+
+key: value
+
+# Incorrect Representation of key value
+key:value
+key :value
+
+# simple key values
+
+name: Basheer
+city: hyderabad
+state: Telangana
+
+
+# Dictionary /Map - A dictionary is a data structure that holds a collection of
+# data as a set of key value pairs
+
+trainer: ravi
+city: hyderabad
+state: telangana
+
+
+# List - Multiple items, list of courses
+
+Courses:
+- AWS
+- DevOps
+- Azure
+- Python
+
+# Examples for k8s pod representation
+institute: edify
+plotno: 92
+infrastructure: 
+ floor: 3
+ classrooms: 20
+courses:
+ aws:
+ - student_name: Basheer
+   student_age: 25
+   student_contact:
+   -personal: 99989
+   -house: 88888
+   -brother: 7777
