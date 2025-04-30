@@ -1,0 +1,13 @@
+person: # Dictionary
+  name: Noorjahan
+  age: 25
+  city: Allagadda
+  hobbies: # List
+  - cooking
+  - reading
+  hobbies: [cooking, reading] # list with a different notation
+  friends: 
+  - name: frnd1
+    age: 22
+    name: frnd2
+    age 25
