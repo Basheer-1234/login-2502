@@ -1,0 +1,14 @@
+## multi container Pod
+apiVersion: v1
+Kind: Pod
+metdata:
+  name: multi-pass-pod
+spec:
+ containers:
+ - name: c1
+   image: nginx
+   ports:
+   - containerPort: 80
+ - name: c2
+   image: ubuntu
+   command: ['sh', '-c', 'echo "Hello, kuberneted!" && sleep 3600']
