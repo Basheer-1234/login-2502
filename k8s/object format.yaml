@@ -1,0 +1,12 @@
+# In k8s top 4 level yaml items
+apiVersion:
+kind:
+metadata:
+spec:
+
+# in k8s everything is object, pod, replicaset, deployment, service and many more
+
+apiVersion: # key: Vlaue
+kind: # key: Vlaue
+metadata: # Lists& dictionary
+spec: # Lists& dictionary
