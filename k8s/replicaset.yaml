@@ -1,11 +1,11 @@
 # Replicaset Template
-apiVersion: v1
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: nginx
 spec:
   # 1 Pod should exist at all times.
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: nginx
