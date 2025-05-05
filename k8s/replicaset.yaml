@@ -1,5 +1,5 @@
 # replicaset template
-apiVersion: v1/apps
+apiVersion: v1
 kind: Replicaset
 metadata:
   name: nginx
